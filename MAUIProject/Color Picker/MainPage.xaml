@@ -36,13 +36,13 @@
                     <HorizontalStackLayout >
 
                         <Label x:Name="lblHex" Text="Hex Value :#000000" VerticalOptions="Center" />
-                        <ImageButton Margin="10,0,0,0" HeightRequest="25" 
+                        <!--<ImageButton Margin="10,0,0,0" HeightRequest="25" 
                                  WidthRequest="25" Source="Copy.png"
-                                 Clicked="ImageButton_Clicked"/>
+                                 Clicked="ImageButton_Clicked"/>-->
                     </HorizontalStackLayout>
                 </Frame>
-                <!--<Button x:Name="btnRandom" Background="{StaticResource Primary}"
-                        Text="Generate Random Color" Clicked="btnRandom_Clicked"/>-->
+                <Button x:Name="btnRandom" Background="{StaticResource Primary}"
+                        Text="Generate Random Color" Clicked="btnRandom_Clicked"/>
             </VerticalStackLayout>
         </Frame>
     </Grid>
